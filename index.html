@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="content">
+        <div class="banner">
+            <div class="logo">
+                <h1 class="fakeLogo">FAKE Company Inc</h1>
+            </div>
+        </div>
+        <div class="introText">
+            <div class="dummyText">
+                <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</p>
+                <p class="spacedText">Sign up <em>now</em>!</p>
+            </div>
+            <form>
+                <div class="form">
+                    <p class="formTitle">Let's do this!</p>
+                    <div class="input">
+                        <label for="firstName">First name</label>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </div>
+                    <div class="input">
+                        <label for="lastName">Last name</label>
+                        <input type="text" name="lastName" id="lastName">
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phoneNumber">Phone number</label>
+                        <input type="text" name="phoneNumber" id="phoneNumber" minlength="9">
+                    </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input">
+                        <label for="confirmPassword">Confirm password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required>
+                    </div>
+                </div>
+                <div class="submit"><button type="submit">Create Account</button></div>
+            </form>
+            <div class="registered"><p>Already have an account?</p><a href="#">Log in</a></div>
+        </div>
+    </div>
+</body>
+</html>
